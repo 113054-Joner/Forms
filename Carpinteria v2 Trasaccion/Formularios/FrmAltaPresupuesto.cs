@@ -33,7 +33,7 @@ namespace Carpinteria.Formularios
             //cboProductos.SelectedIndex = 0; no tiene sentido inicializarlo
             nudCantidad.Value = 0;
         }
-
+         
         private void CargarCombo()
         {
             string cadenaConexion = "Data Source=localhost;Initial Catalog=Carpinteria;Integrated Security=True;";
@@ -46,7 +46,7 @@ namespace Carpinteria.Formularios
             tabla.Load(comando.ExecuteReader());
 
             connection.Close();
-
+            
             cboProductos.DataSource = tabla;//Origen de datos
             cboProductos.DisplayMember = "n_producto";//Valor que se ve y se elige,puede ir nro nNro
             cboProductos.ValueMember = "id_producto";//ID del registro,puede ir nro 0
@@ -61,11 +61,11 @@ namespace Carpinteria.Formularios
             command.Connection = conexion;//2
             command.CommandType = CommandType.StoredProcedure;
             command.CommandText = "SP_ULT_ID";//Sentencias
-
+            
             //Sql Parametros
-            SqlParameter param = new SqlParameter("@nro", SqlDbType.Int);
+            SqlParameter param = new SqlParameter("@nro",SqlDbType.Int);
             param.Direction = ParameterDirection.Output;
-
+            
             command.Parameters.Add(param);
 
             command.ExecuteNonQuery();//Reader Select -> DataTable , NonQuery Update,Inser,Delete 
@@ -77,13 +77,13 @@ namespace Carpinteria.Formularios
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            if (cboProductos.SelectedIndex == -1 || cboProductos.Text.Equals(string.Empty))
+            if (cboProductos.SelectedIndex == -1 || cboProductos.Text.Equals(string.Empty)) 
             {
-                MessageBox.Show("Debe Seleccionar un producto", "Validando", MessageBoxButtons.OK,
-                    MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
-                return;
+                MessageBox.Show("Debe Seleccionar un producto","Validando",MessageBoxButtons.OK,
+                    MessageBoxIcon.Error,MessageBoxDefaultButton.Button1);
+                return ; 
             }
-            if (nudCantidad.Value == 0) //string.IsNullOrEmpty int.TryParse(txt , out)
+            if(nudCantidad.Value == 0) //string.IsNullOrEmpty int.TryParse(txt , out)
             {
                 MessageBox.Show("Debe Ingresar la cantidad del producto", "Validando", MessageBoxButtons.OK,
                     MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
@@ -92,7 +92,7 @@ namespace Carpinteria.Formularios
             //Validar si existe el item
             foreach (DataGridViewRow row in dgvDetalles.Rows)
             {
-                if (row.Cells["ColProd"].Value.ToString().Equals(cboProductos.Text))
+                if (row.Cells["ColProd"].Value.ToString().Equals(cboProductos.Text)) 
                 {
                     MessageBox.Show("Este producto esta en el presupuesto", "Control", MessageBoxButtons.OK,
                     MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button1);
@@ -107,7 +107,7 @@ namespace Carpinteria.Formularios
             string nom = item.Row.ItemArray[1].ToString();//Aca seleccionamos: nombre
             float precio = float.Parse(item.Row.ItemArray[2].ToString());//Aca seleccionamos cantidad
 
-            Producto p = new Producto(prod, nom, precio);
+            Producto p = new Producto(prod,nom,precio);
 
             int cant = Convert.ToInt32(nudCantidad.Value);
 
@@ -117,14 +117,14 @@ namespace Carpinteria.Formularios
 
             //dgvDetalles.Rows.Add(new object[] { item.Row.ItemArray[0], item.Row.ItemArray[1], item.Row.ItemArray[2], cant});//Agrego al Detalle al dgv
 
-            dgvDetalles.Rows.Add(new object[] { prod, nom, precio, cant });//Agrego al Detalle al dgv
+            dgvDetalles.Rows.Add(new object[] { prod,nom,precio,cant, nuevo.CalcularTotal() });//Agrego al Detalle al dgv
 
             CalcularTotal();
         }
 
         private void dgvDetalles_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (dgvDetalles.CurrentCell.ColumnIndex == 4)
+            if (dgvDetalles.CurrentCell.ColumnIndex == 5) 
             {
                 nuevo.QuitarDetalle(dgvDetalles.CurrentRow.Index);
                 dgvDetalles.Rows.Remove(dgvDetalles.CurrentRow);
@@ -142,6 +142,62 @@ namespace Carpinteria.Formularios
             //Carga Total: es todo con descuento, precio final
             //txtTotal.Text = (nuevo.CalcularTotal()-(nuevo.CalcularTotal() * (float.Parse(txtDescuento.Text)/100))).ToString();
             txtTotal.Text = (nuevo.CalcularTotal() * (1 - (float.Parse(txtDescuento.Text) / 100))).ToString();
+        }
+
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+            //VALIDACIONES TODO LO QUE VA A LA BD 
+            if(string.IsNullOrEmpty(txtCliente.Text))
+            {
+                MessageBox.Show("Complete el nombre del cliente", "Control", MessageBoxButtons.OK,
+                    MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button1);
+                txtCliente.Focus();
+                return;
+            }
+            if(dgvDetalles.RowCount == 0)
+            {
+                MessageBox.Show("Seleccione un producto", "Control", MessageBoxButtons.OK,
+                    MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button1);
+                cboProductos.Focus();
+                return;
+            }
+            if (nudCantidad.Value == 0)
+            {
+                MessageBox.Show("Seleccione una cantidad valida", "Control", MessageBoxButtons.OK,
+                    MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button1);
+                cboProductos.Focus();
+                return;
+            }
+
+            //Grabar Maestro y Detalles
+            GuardaPresupuesto();
+            //GuardarDetallesPresupuesto();
+        }
+
+        private void GuardaPresupuesto()
+        {
+            nuevo.Fecha = Convert.ToDateTime(txtFecha.Text);
+            nuevo.Cliente = txtCliente.Text;
+            nuevo.Descuento = double.Parse(txtDescuento.Text);
+            nuevo.Total = Convert.ToDouble(txtTotal.Text);
+
+            if (nuevo.Confirmar())
+            {
+                MessageBox.Show("Grabado Correctamente", "Informe", MessageBoxButtons.OK,
+                    MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);
+                this.Close();
+            }
+            else 
+            {
+                MessageBox.Show("No se pudo grabar", "Informe", MessageBoxButtons.OK,
+                    MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                this.Close();
+            }
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
