@@ -37,9 +37,9 @@ namespace Carpinteria.Entidades
             listDetalles.Add(detalle);
         }
 
-        public void QuitarDetalle(DetallePresupuesto detalle)
+        public void QuitarDetalle(int indice)
         {
-            listDetalles.Remove(detalle);
+            listDetalles.RemoveAt(indice);
         }
 
         public float CalcularTotal() 
