@@ -18,3 +18,4 @@ E:\Proyectos\C#\Forms\Forms\Carpinteria\obj\Debug\Carpinteria.csproj.GenerateRes
 E:\Proyectos\C#\Forms\Forms\Carpinteria\obj\Debug\Carpinteria.csproj.CoreCompileInputs.cache
 E:\Proyectos\C#\Forms\Forms\Carpinteria\obj\Debug\Carpinteria.exe
 E:\Proyectos\C#\Forms\Forms\Carpinteria\obj\Debug\Carpinteria.pdb
+E:\Proyectos\C#\Forms\Forms\Carpinteria\obj\Debug\Carpinteria.Formularios.FrmAltaPresupuesto.resources

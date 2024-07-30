@@ -49,15 +49,24 @@
     <Compile Include="Entidades\DetallePresupuesto.cs" />
     <Compile Include="Entidades\Producto.cs" />
     <Compile Include="Entidades\Presupuesto.cs" />
-    <Compile Include="FrmPrincipal.cs">
+    <Compile Include="Formularios\FrmAltaPresupuesto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmPrincipal.Designer.cs">
+    <Compile Include="Formularios\FrmAltaPresupuesto.Designer.cs">
+      <DependentUpon>FrmAltaPresupuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmPrincipal.Designer.cs">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmPrincipal.resx">
+    <EmbeddedResource Include="Formularios\FrmAltaPresupuesto.resx">
+      <DependentUpon>FrmAltaPresupuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
