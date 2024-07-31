@@ -1,0 +1,87 @@
+C:\Users\claud\Desktop\FACULTAD 2024\PROGRAMACION 3\Examenes\Repaso Recuperatorio\Parcial 2\Carpinteria\bin\Debug\Carpinteria.exe.config
+C:\Users\claud\Desktop\FACULTAD 2024\PROGRAMACION 3\Examenes\Repaso Recuperatorio\Parcial 2\Carpinteria\bin\Debug\Carpinteria.exe
+C:\Users\claud\Desktop\FACULTAD 2024\PROGRAMACION 3\Examenes\Repaso Recuperatorio\Parcial 2\Carpinteria\bin\Debug\Carpinteria.pdb
+C:\Users\claud\Desktop\FACULTAD 2024\PROGRAMACION 3\Examenes\Repaso Recuperatorio\Parcial 2\Carpinteria\obj\Debug\Carpinteria.csproj.AssemblyReference.cache
+C:\Users\claud\Desktop\FACULTAD 2024\PROGRAMACION 3\Examenes\Repaso Recuperatorio\Parcial 2\Carpinteria\obj\Debug\Carpinteria.Carpinteria.resources
+C:\Users\claud\Desktop\FACULTAD 2024\PROGRAMACION 3\Examenes\Repaso Recuperatorio\Parcial 2\Carpinteria\obj\Debug\Carpinteria.Properties.Resources.resources
+C:\Users\claud\Desktop\FACULTAD 2024\PROGRAMACION 3\Examenes\Repaso Recuperatorio\Parcial 2\Carpinteria\obj\Debug\Carpinteria.csproj.GenerateResource.cache
+C:\Users\claud\Desktop\FACULTAD 2024\PROGRAMACION 3\Examenes\Repaso Recuperatorio\Parcial 2\Carpinteria\obj\Debug\Carpinteria.csproj.CoreCompileInputs.cache
+C:\Users\claud\Desktop\FACULTAD 2024\PROGRAMACION 3\Examenes\Repaso Recuperatorio\Parcial 2\Carpinteria\obj\Debug\Carpinteria.exe
+C:\Users\claud\Desktop\FACULTAD 2024\PROGRAMACION 3\Examenes\Repaso Recuperatorio\Parcial 2\Carpinteria\obj\Debug\Carpinteria.pdb
+E:\Proyectos\C#\Forms\Forms\Carpinteria\bin\Debug\Carpinteria.exe.config
+E:\Proyectos\C#\Forms\Forms\Carpinteria\bin\Debug\Carpinteria.exe
+E:\Proyectos\C#\Forms\Forms\Carpinteria\bin\Debug\Carpinteria.pdb
+E:\Proyectos\C#\Forms\Forms\Carpinteria\obj\Debug\Carpinteria.csproj.AssemblyReference.cache
+E:\Proyectos\C#\Forms\Forms\Carpinteria\obj\Debug\Carpinteria.FrmPrincipal.resources
+E:\Proyectos\C#\Forms\Forms\Carpinteria\obj\Debug\Carpinteria.Properties.Resources.resources
+E:\Proyectos\C#\Forms\Forms\Carpinteria\obj\Debug\Carpinteria.csproj.GenerateResource.cache
+E:\Proyectos\C#\Forms\Forms\Carpinteria\obj\Debug\Carpinteria.csproj.CoreCompileInputs.cache
+E:\Proyectos\C#\Forms\Forms\Carpinteria\obj\Debug\Carpinteria.exe
+E:\Proyectos\C#\Forms\Forms\Carpinteria\obj\Debug\Carpinteria.pdb
+E:\Proyectos\C#\Forms\Forms\Carpinteria\obj\Debug\Carpinteria.Formularios.FrmAltaPresupuesto.resources
+E:\Proyectos\C#\Forms\Forms\Carpinteria v2 Trasaccion\bin\Debug\Carpinteria.exe.config
+E:\Proyectos\C#\Forms\Forms\Carpinteria v2 Trasaccion\bin\Debug\Carpinteria.exe
+E:\Proyectos\C#\Forms\Forms\Carpinteria v2 Trasaccion\bin\Debug\Carpinteria.pdb
+E:\Proyectos\C#\Forms\Forms\Carpinteria v2 Trasaccion\obj\Debug\Carpinteria.csproj.AssemblyReference.cache
+E:\Proyectos\C#\Forms\Forms\Carpinteria v2 Trasaccion\obj\Debug\Carpinteria.Formularios.FrmAltaPresupuesto.resources
+E:\Proyectos\C#\Forms\Forms\Carpinteria v2 Trasaccion\obj\Debug\Carpinteria.FrmPrincipal.resources
+E:\Proyectos\C#\Forms\Forms\Carpinteria v2 Trasaccion\obj\Debug\Carpinteria.Properties.Resources.resources
+E:\Proyectos\C#\Forms\Forms\Carpinteria v2 Trasaccion\obj\Debug\Carpinteria.csproj.GenerateResource.cache
+E:\Proyectos\C#\Forms\Forms\Carpinteria v2 Trasaccion\obj\Debug\Carpinteria.csproj.CoreCompileInputs.cache
+E:\Proyectos\C#\Forms\Forms\Carpinteria v2 Trasaccion\obj\Debug\Carpinteria.exe
+E:\Proyectos\C#\Forms\Forms\Carpinteria v2 Trasaccion\obj\Debug\Carpinteria.pdb
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 InterFaz\obj\Debug\Carpinteria.csproj.AssemblyReference.cache
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 InterFaz\obj\Debug\Carpinteria.Formularios.FrmAltaPresupuesto.resources
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 InterFaz\obj\Debug\Carpinteria.FrmPrincipal.resources
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 InterFaz\obj\Debug\Carpinteria.Properties.Resources.resources
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 InterFaz\obj\Debug\Carpinteria.csproj.GenerateResource.cache
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 InterFaz\obj\Debug\Carpinteria.csproj.CoreCompileInputs.cache
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 InterFaz\obj\Debug\Carpinteria.exe
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 InterFaz\obj\Debug\Carpinteria.pdb
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 InterFaz\bin\Debug\Carpinteria.exe.config
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 InterFaz\bin\Debug\Carpinteria.exe
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 InterFaz\bin\Debug\Carpinteria.pdb
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 Interfaz,Dao,Factory\bin\Debug\Carpinteria.exe.config
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 Interfaz,Dao,Factory\bin\Debug\Carpinteria.exe
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 Interfaz,Dao,Factory\bin\Debug\Carpinteria.pdb
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 Interfaz,Dao,Factory\obj\Debug\Carpinteria.csproj.AssemblyReference.cache
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 Interfaz,Dao,Factory\obj\Debug\Carpinteria.Formularios.FrmAltaPresupuesto.resources
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 Interfaz,Dao,Factory\obj\Debug\Carpinteria.FrmPrincipal.resources
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 Interfaz,Dao,Factory\obj\Debug\Carpinteria.Properties.Resources.resources
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 Interfaz,Dao,Factory\obj\Debug\Carpinteria.csproj.GenerateResource.cache
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 Interfaz,Dao,Factory\obj\Debug\Carpinteria.csproj.CoreCompileInputs.cache
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 Interfaz,Dao,Factory\obj\Debug\Carpinteria.exe
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 Interfaz,Dao,Factory\obj\Debug\Carpinteria.pdb
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 Interfaz,Dao,Factory,Servicio\bin\Debug\Carpinteria.exe.config
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 Interfaz,Dao,Factory,Servicio\bin\Debug\Carpinteria.exe
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 Interfaz,Dao,Factory,Servicio\bin\Debug\Carpinteria.pdb
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 Interfaz,Dao,Factory,Servicio\obj\Debug\Carpinteria.csproj.AssemblyReference.cache
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 Interfaz,Dao,Factory,Servicio\obj\Debug\Carpinteria.Formularios.FrmAltaPresupuesto.resources
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 Interfaz,Dao,Factory,Servicio\obj\Debug\Carpinteria.FrmPrincipal.resources
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 Interfaz,Dao,Factory,Servicio\obj\Debug\Carpinteria.Properties.Resources.resources
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 Interfaz,Dao,Factory,Servicio\obj\Debug\Carpinteria.csproj.GenerateResource.cache
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 Interfaz,Dao,Factory,Servicio\obj\Debug\Carpinteria.csproj.CoreCompileInputs.cache
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 Interfaz,Dao,Factory,Servicio\obj\Debug\Carpinteria.exe
+E:\Proyectos\C#\Forms\Forms\Carpinteria v3 Interfaz,Dao,Factory,Servicio\obj\Debug\Carpinteria.pdb
+E:\Proyectos\C#\Forms\Forms\Carpinteria v4 Singleton\bin\Debug\Carpinteria.exe.config
+E:\Proyectos\C#\Forms\Forms\Carpinteria v4 Singleton\bin\Debug\Carpinteria.exe
+E:\Proyectos\C#\Forms\Forms\Carpinteria v4 Singleton\bin\Debug\Carpinteria.pdb
+E:\Proyectos\C#\Forms\Forms\Carpinteria v4 Singleton\obj\Debug\Carpinteria.csproj.AssemblyReference.cache
+E:\Proyectos\C#\Forms\Forms\Carpinteria v4 Singleton\obj\Debug\Carpinteria.Formularios.FrmAltaPresupuesto.resources
+E:\Proyectos\C#\Forms\Forms\Carpinteria v4 Singleton\obj\Debug\Carpinteria.FrmPrincipal.resources
+E:\Proyectos\C#\Forms\Forms\Carpinteria v4 Singleton\obj\Debug\Carpinteria.Properties.Resources.resources
+E:\Proyectos\C#\Forms\Forms\Carpinteria v4 Singleton\obj\Debug\Carpinteria.csproj.GenerateResource.cache
+E:\Proyectos\C#\Forms\Forms\Carpinteria v4 Singleton\obj\Debug\Carpinteria.csproj.CoreCompileInputs.cache
+E:\Proyectos\C#\Forms\Forms\Carpinteria v4 Singleton\obj\Debug\Carpinteria.exe
+E:\Proyectos\C#\Forms\Forms\Carpinteria v4 Singleton\obj\Debug\Carpinteria.pdb
+E:\Proyectos\C#\Forms\Forms\Carpinteria V4.1 Singleton, Refactorizada\bin\Debug\Carpinteria.exe.config
+E:\Proyectos\C#\Forms\Forms\Carpinteria V4.1 Singleton, Refactorizada\bin\Debug\Carpinteria.exe
+E:\Proyectos\C#\Forms\Forms\Carpinteria V4.1 Singleton, Refactorizada\bin\Debug\Carpinteria.pdb
+E:\Proyectos\C#\Forms\Forms\Carpinteria V4.1 Singleton, Refactorizada\obj\Debug\Carpinteria.csproj.AssemblyReference.cache
+E:\Proyectos\C#\Forms\Forms\Carpinteria V4.1 Singleton, Refactorizada\obj\Debug\Carpinteria.Formularios.FrmAltaPresupuesto.resources
+E:\Proyectos\C#\Forms\Forms\Carpinteria V4.1 Singleton, Refactorizada\obj\Debug\Carpinteria.FrmPrincipal.resources
+E:\Proyectos\C#\Forms\Forms\Carpinteria V4.1 Singleton, Refactorizada\obj\Debug\Carpinteria.Properties.Resources.resources
+E:\Proyectos\C#\Forms\Forms\Carpinteria V4.1 Singleton, Refactorizada\obj\Debug\Carpinteria.csproj.GenerateResource.cache
+E:\Proyectos\C#\Forms\Forms\Carpinteria V4.1 Singleton, Refactorizada\obj\Debug\Carpinteria.csproj.CoreCompileInputs.cache
+E:\Proyectos\C#\Forms\Forms\Carpinteria V4.1 Singleton, Refactorizada\obj\Debug\Carpinteria.exe
+E:\Proyectos\C#\Forms\Forms\Carpinteria V4.1 Singleton, Refactorizada\obj\Debug\Carpinteria.pdb
