@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarpinteriaFront")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae1b4e848e1e52082b8e52e56462b0ec530f378e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36941e682eaf063b373cc2b168bf3f74a250e312")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarpinteriaFront")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarpinteriaFront")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

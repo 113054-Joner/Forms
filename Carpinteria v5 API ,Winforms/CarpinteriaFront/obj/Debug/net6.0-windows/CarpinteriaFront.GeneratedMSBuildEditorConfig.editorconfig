@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CarpinteriaFront
-build_property.ProjectDir = E:\Proyectos\C#\Forms\Forms\Carpinteria V5 API\CarpinteriaFront\
+build_property.ProjectDir = E:\Proyectos\C#\Forms\Forms\Carpinteria v5 API ,Winforms\CarpinteriaFront\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

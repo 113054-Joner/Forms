@@ -84,17 +84,17 @@ namespace CarpinteriaFront.Formularios
             }
 
 
-            DataRowView item = (DataRowView)cboProductos.SelectedItem;//Obtener el item del combo, Devuelve un arraay con los datos
+            Producto item = (Producto)cboProductos.SelectedItem;//Obtener el item del combo, Devuelve un arraay con los datos
             // [nro_pro,nom,cant]
-            int prod = Convert.ToInt32(item.Row.ItemArray[0]);//Aca selecionamos: nro de Prod
-            string nom = item.Row.ItemArray[1].ToString();//Aca seleccionamos: nombre
-            float precio = float.Parse(item.Row.ItemArray[2].ToString());//Aca seleccionamos cantidad
+            int prod = item.ProductoNro;//Aca selecionamos: nro de Prod
+            string nom = item.Nombre;//Aca seleccionamos: nombre
+            double precio = item.Precio;//Aca seleccionamos cantidad
 
-            Producto p = new Producto(prod,nom,precio);
+            
 
             int cant = Convert.ToInt32(nudCantidad.Value);
 
-            DetallePresupuesto detalle = new DetallePresupuesto(p, cant);
+            DetallePresupuesto detalle = new DetallePresupuesto(item, cant);
 
             nuevo.AgregarDetalle(detalle);//Agrego el detalle al presupuesto
 

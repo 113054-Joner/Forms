@@ -35,6 +35,25 @@ namespace CarpinteriaWebApi.Controllers
             }
         }
 
+        // POST api/<PresupuestoController>
+        [HttpPost("/nuevoPresupuesto")]
+        public IActionResult Post(Presupuesto oPresupuesto )
+        {
+            bool aux;
+            try
+            {
+                aux = servicio.CrearPresupuesto(oPresupuesto);
+                return Ok(aux);
+            }
+            catch (Exception)
+            {
+
+                return StatusCode(500, "Error");
+            }
+        }
+
+
+
         // GET api/<PresupuestoController>/5
         [HttpGet("{id}")]
         public string Get(int id)
@@ -42,11 +61,6 @@ namespace CarpinteriaWebApi.Controllers
             return "value";
         }
 
-        // POST api/<PresupuestoController>
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
 
         // PUT api/<PresupuestoController>/5
         [HttpPut("{id}")]

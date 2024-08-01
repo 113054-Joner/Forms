@@ -11,6 +11,10 @@ namespace CarpinteriaFront.Entidades
         public Producto ProductoDet { get; set; }
         public int Cantidad { get; set; }
 
+        public DetallePresupuesto()
+        {
+            
+        }
         public DetallePresupuesto(Producto producto, int cantidad)
         {
             this.ProductoDet = producto;

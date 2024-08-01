@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "narQEJpyccpzuTqsWZP7UiJtmAN3WbzoH9zztu4SN7g4S4toxC8SgEQTOP0Mg/3n/sqOVgr57GpK8AlSs7k81A==",
+  "dgSpecHash": "C+OGEJTiSHWy1zLMJv930RqFTO++bvke/4HvGo5mIUR4DBuWbYnin/IiYQIfVOeK1E+lv0fjSQp6jFubCzCSeQ==",
   "success": true,
-  "projectFilePath": "E:\\Proyectos\\C#\\Forms\\Forms\\Carpinteria V5 API\\CarpinteriaWebApi\\CarpinteriaWebApi.csproj",
+  "projectFilePath": "E:\\Proyectos\\C#\\Forms\\Forms\\Carpinteria v5 API ,Winforms\\CarpinteriaWebApi\\CarpinteriaWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\claud\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\azure.identity\\1.11.3\\azure.identity.1.11.3.nupkg.sha512",

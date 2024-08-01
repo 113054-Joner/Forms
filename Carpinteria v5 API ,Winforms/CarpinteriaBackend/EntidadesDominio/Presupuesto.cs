@@ -19,15 +19,6 @@ namespace CarpinteriaFront.Entidades
         public DateTime FechaBaja { get; set; }
         public List<DetallePresupuesto> Detalles { get; set; }
 
-        //public Presupuesto(int presupuestoNro, DateTime fecha, string cliente, double total, DateTime fechaBaja, List<DetallePresupuesto> listDetalles)
-        //{
-        //    PresupuestoNro = presupuestoNro;
-        //    Fecha = fecha;
-        //    Cliente = cliente;
-        //    Total = total;
-        //    FechaBaja = fechaBaja;
-        //    this.listDetalles = listDetalles;
-        //}
 
         public Presupuesto()
         {

@@ -2049,11 +2049,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Proyectos\\C#\\Forms\\Forms\\Carpinteria V5 API\\CarpinteriaFront\\CarpinteriaFront.csproj",
+      "projectUniqueName": "E:\\Proyectos\\C#\\Forms\\Forms\\Carpinteria v5 API ,Winforms\\CarpinteriaFront\\CarpinteriaFront.csproj",
       "projectName": "CarpinteriaFront",
-      "projectPath": "E:\\Proyectos\\C#\\Forms\\Forms\\Carpinteria V5 API\\CarpinteriaFront\\CarpinteriaFront.csproj",
+      "projectPath": "E:\\Proyectos\\C#\\Forms\\Forms\\Carpinteria v5 API ,Winforms\\CarpinteriaFront\\CarpinteriaFront.csproj",
       "packagesPath": "C:\\Users\\claud\\.nuget\\packages\\",
-      "outputPath": "E:\\Proyectos\\C#\\Forms\\Forms\\Carpinteria V5 API\\CarpinteriaFront\\obj\\",
+      "outputPath": "E:\\Proyectos\\C#\\Forms\\Forms\\Carpinteria v5 API ,Winforms\\CarpinteriaFront\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\claud\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2070,8 +2070,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "E:\\Proyectos\\C#\\Forms\\Forms\\Carpinteria V5 API\\CarpinteriaBackend\\CarpinteriaBackend.csproj": {
-              "projectPath": "E:\\Proyectos\\C#\\Forms\\Forms\\Carpinteria V5 API\\CarpinteriaBackend\\CarpinteriaBackend.csproj"
+            "E:\\Proyectos\\C#\\Forms\\Forms\\Carpinteria v5 API ,Winforms\\CarpinteriaBackend\\CarpinteriaBackend.csproj": {
+              "projectPath": "E:\\Proyectos\\C#\\Forms\\Forms\\Carpinteria v5 API ,Winforms\\CarpinteriaBackend\\CarpinteriaBackend.csproj"
             }
           }
         }
