@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarpinteriaApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6fdcaa2f8ebc535abb97b08ed95d1a6157974b84")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+984ba293d381aa9c115b3ab9b41c3b9e9097ca9f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarpinteriaApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarpinteriaApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
