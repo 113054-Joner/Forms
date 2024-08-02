@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="formularios\Reportes\rptProductos.rdlc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="formularios\Reportes\rptProductos.rdlc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CarpinteriaBackend\CarpinteriaBackend.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="formularios\FrmAltaPresupuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formularios\FrmConsultarPresupuestos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formularios\FrmDetallesPresupuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formularios\FrmModificarPresupuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formularios\Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formularios\Reportes\dsReporte1.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="formularios\Reportes\dsReporte.xsd">
+      <SubType>Designer</SubType>
+      <LastGenOutput>dsReporte1.Designer.cs</LastGenOutput>
+      <Generator>MSDataSetGenerator</Generator>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+E:\Proyectos\C#\Forms\Forms\Carpinteria v6 API y Winfors CRUD\CarpinteriaBackend\obj\Debug\net6.0\CarpinteriaBackend.csproj.AssemblyReference.cache
+E:\Proyectos\C#\Forms\Forms\Carpinteria v6 API y Winfors CRUD\CarpinteriaBackend\obj\Debug\net6.0\CarpinteriaBackend.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos\C#\Forms\Forms\Carpinteria v6 API y Winfors CRUD\CarpinteriaBackend\obj\Debug\net6.0\CarpinteriaBackend.AssemblyInfoInputs.cache
+E:\Proyectos\C#\Forms\Forms\Carpinteria v6 API y Winfors CRUD\CarpinteriaBackend\obj\Debug\net6.0\CarpinteriaBackend.AssemblyInfo.cs
+E:\Proyectos\C#\Forms\Forms\Carpinteria v6 API y Winfors CRUD\CarpinteriaBackend\obj\Debug\net6.0\CarpinteriaBackend.csproj.CoreCompileInputs.cache
+E:\Proyectos\C#\Forms\Forms\Carpinteria v6 API y Winfors CRUD\CarpinteriaBackend\obj\Debug\net6.0\CarpinteriaBackend.sourcelink.json
+E:\Proyectos\C#\Forms\Forms\Carpinteria v6 API y Winfors CRUD\CarpinteriaBackend\bin\Debug\net6.0\CarpinteriaBackend.deps.json
+E:\Proyectos\C#\Forms\Forms\Carpinteria v6 API y Winfors CRUD\CarpinteriaBackend\bin\Debug\net6.0\CarpinteriaBackend.dll
+E:\Proyectos\C#\Forms\Forms\Carpinteria v6 API y Winfors CRUD\CarpinteriaBackend\bin\Debug\net6.0\CarpinteriaBackend.pdb
+E:\Proyectos\C#\Forms\Forms\Carpinteria v6 API y Winfors CRUD\CarpinteriaBackend\obj\Debug\net6.0\CarpinteriaBackend.dll
+E:\Proyectos\C#\Forms\Forms\Carpinteria v6 API y Winfors CRUD\CarpinteriaBackend\obj\Debug\net6.0\refint\CarpinteriaBackend.dll
+E:\Proyectos\C#\Forms\Forms\Carpinteria v6 API y Winfors CRUD\CarpinteriaBackend\obj\Debug\net6.0\CarpinteriaBackend.pdb
+E:\Proyectos\C#\Forms\Forms\Carpinteria v6 API y Winfors CRUD\CarpinteriaBackend\obj\Debug\net6.0\ref\CarpinteriaBackend.dll
