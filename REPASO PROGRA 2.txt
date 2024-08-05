@@ -1,0 +1,153 @@
+Form 
+
+Form Net FrameWork 4.8
+1-Crear Proyecto
+2-Crear Clases , Ir de atras para adelantes
+
+Creaar Ctor: click der> acciones > generar ctro con todas las props 
+
+Ver
+
+
+Config 
+CADENA DE CONEXION 
+Properties>Recursos>nombre y valor
+
+ Properties.Resources.NombreCadenaConexion;
+
+
+DGV:
+Deshabilitar opc de Agregar col.
+
+Atributos:
+Forms:  
+WindowsState: sirve para ver si la pantalla abre en maximizada 
+
+Agregar Funcionalidad a un boton de un DGV:prop > rayito > CellContentClick
+
+IMPORTANTE: 
+CUANDO EL EVENTO NO ESTA Y SE BORRA, COMENTAR LINEA O BORRAR
+En CAD CONEXION borrar Trust Server Certificate=True
+
+INTERFAZ: 
+De una clase> click der > extraer una interfaz 
+
+Implemetar: clase : interfaz 
+
+CLASE ABSTRACTA: 
+Clase con metodo abstracn, no se puede instanciar
+
+Enumeracion 
+TipoPro miTipo 
+
+enum TipoPro
+{
+	Suelto,
+	Pack
+}
+
+if ( algo = miTipo.Suelto)
+-----------------------------------------------------------
+DAO 
+Clase Data Acces Object 
+Es la que tiene la conexion , y tiene un DAO por clase
+
+Front: Formulario
+Back: Logica de Negocio / Servicio o logica
+BD: Acceso a  datos /DAO
+
+
+CAPA NEGOCIOS O SERV ES LO MISMO
+CAPA ACCESO A DATOS: carpeta con DAOs
+
+
+Pasos: 
+1 Creo INTERFAZ IAlgoDao
+2 Creo clase AlgoDao
+3 implemento interfaz 
+4 Services instanciar IAlgoDao Ej IAlgoDao dao
+5 Metodos del services retornan la instancia anterior Ej: dao.algunMetodo
+
+---------------------------------------------------------------------
+FACTORY
+Evitar usar el new
+
+1Crear clase ABSTRACTA factory AbstrackDaoFactory
+Importante: el metodo abstracto es del tipo INTERFAZ Ej IPresupuetoDao
+
+2Crear clase DaoFactory , hereda de AbstrackDaoFactory
+Importante: override metodo actracto, retorna new clase que implementa INTERFAZ DAO
+ Ej: return PresupuestoDao()
+ 
+3En el gestor Service crear un constructor, con parametro AbstrackDaoFactory
+public GestorPresupuesto(AbstractDaofactory factory) // 4 FACT Constructor que toma por Parametro  clase Abstrac
+{
+    dao = factory.CrearPresupuestoDao(); // 5 FACT
+}
+
+4 En frmPrincipal crear un gestor nuevo 
+5 dentro del load 
+gestorPresupuestoService = new GestorPresupuesto(new DaoFactory())
+
+------------------------------------------------------------------------
+SINGLETON 
+Clase que maneja para conexion a BD , CADENAS DE CONEXION,
+
+Semana 06/ Repo Prog2 
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+API
+1 Crear Proyecto>Web> ASP NET CORE WEB API
+.Net 5 
+2 Crear Carpeta Models
+3 Controlador API en Blanco
+
+
+-Agregar un Proyecto al Solucion(Biblioteca)
+
+Solucion > Click Derecho > Agregar una Solucion > Biblioteca De Calse  .NetCore > Seleccionar Carpeta > .NET 5.0 6.0
+Arrastrar y copiar y dejar Formularios 
+Cambiar nameSpace y using por nobre de la biblioteca ,click der cambiar nombre 
+
+Biblioteca Instalar Nuget
+-Sql Client
+
+Cambia public Servicios y models
+
+ -Agregar un Proyecto al Solucion(WebAPI)
+ 
+ Agregar referencias de proycto
+Dependecias> Agregar Referencias > Backend
+
+
+-Agregar un Proyecto al Solucion(Winform .net)
+Agregar ref a backend
+ 
+ 
+ Principal No olvidarse de poner el new ServiceImpFactory  
+ 
+ 
+ 
+ 
+ 
+ 
+{
+  "presupuestoNro": 7,
+  "fecha": "2024-08-01T22:41:41.928Z",
+  "cliente": "Claudio Api Actualizado",
+  "costoMO": 0,
+  "descuento": 0,
+  "fechaBaja": "2024-08-01T22:41:41.928Z",
+  "detalles": [
+    {
+      "producto": {
+    "productoNro": 1,
+    "nombre": "VENTANA CORREDIZA",
+    "precio": 11000,
+    "activo": true
+  },
+      "cantidad": 1
+    }
+  ]
+}
